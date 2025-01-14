@@ -1,12 +1,20 @@
-# Cluster Analysis and Marketing Strategies
+# Bank Customer Segmentation Using Gaussian Mixture Model (GMM)
+
+Welcome to the **Bank Customer Segmentation** project! This project leverages the **UCI Bank Marketing Dataset** to explore customer segmentation using **Machine Learning** techniques. Our goal is to uncover hidden patterns in customer behavior that can help businesses tailor their marketing strategies to maximize engagement and conversion.
+
+## Why Customer Segmentation Matters
+
+By grouping customers into segments based on shared characteristics, banks can create more targeted marketing campaigns, improve customer retention, and boost sales of financial products like term deposits.
+
+## Project Highlights
+
+- **Dataset**: UCI Bank Marketing Dataset – real-world data from a Portuguese bank's direct marketing campaigns.
+- **Segmentation Approach**: We use a **Gaussian Mixture Model (GMM)** to identify customer segments based on key features such as **age, job, balance, loan, and marketing i
+
 
 This document provides an interpretation of customer segmentation based on RFM analysis and suggests targeted marketing strategies.
 
 ## 1. Cluster 0: Moderate Value Customers
-- **Average Age:** 45.1 years
-- **Average Balance:** $14,401.02
-- **Contact Frequency:** 12.73
-- **Days Since Last Contact:** 153.63
 
 **Interpretation:**
 - **Value:** Moderate balance indicates potential for growth.
@@ -20,10 +28,6 @@ This document provides an interpretation of customer segmentation based on RFM a
 ---
 
 ## 2. Cluster 1: High-Value Engaged Customers
-- **Average Age:** 43.4 years
-- **Average Balance:** $171,375.64
-- **Contact Frequency:** 106.44
-- **Days Since Last Contact:** 77.28
 
 **Interpretation:**
 - **Value:** High balance signifies strong financial potential.
@@ -37,10 +41,6 @@ This document provides an interpretation of customer segmentation based on RFM a
 ---
 
 ## 3. Cluster 2: Ultra-High Value Loyal Customers
-- **Average Age:** 44.8 years
-- **Average Balance:** $545,358.80
-- **Contact Frequency:** 236.4
-- **Days Since Last Contact:** 61.0
 
 **Interpretation:**
 - **Value:** Represents the bank's most valuable customers.
